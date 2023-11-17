@@ -1,0 +1,28 @@
+"","department","alpha_mean","alpha_sd","alpha_q25","alpha_q75","alpha","pKS"
+"1","Antioquia department",2.46,0.23,2.33,2.61,2.16,0.36
+"2","Arauca department",2.43,0.47,2.08,2.62,3.15,0.91
+"3","Bogotá department",2.56,0.71,2.04,2.86,1.72,0.05
+"4","Bolívar department",2.46,0.36,2.17,2.69,1.76,0.18
+"5","Boyacá department",2.56,0.66,2.12,2.77,2.55,0.12
+"6","Córdoba department",2.32,0.49,1.97,2.65,1.64,0.07
+"7","Caldas department",2.37,0.45,2.05,2.52,2.01,0.22
+"8","Caquetá department",2.36,0.28,2.18,2.43,2.86,0.05
+"9","Casanare department",2.63,0.73,2.15,2.69,3.29,0.94
+"10","Cauca department",2.46,0.43,2.18,2.61,2.56,0.64
+"11","Cesar department",2.48,0.55,2.1,2.67,2.36,0.49
+"12","Chocó department",2.43,0.49,2.12,2.66,2.23,0.49
+"13","Cundinamarca department",2.42,0.44,2.09,2.65,2.53,0.65
+"14","Guaviare department",2.46,0.5,2.16,2.67,2.27,0.56
+"15","Huila department",2.46,0.51,2.16,2.55,2.49,0.85
+"16","Magdalena department",2.45,0.42,2.18,2.63,2.25,0.04
+"17","Meta department",2.42,0.27,2.26,2.59,2.82,0.6
+"18","Nariño department",2.42,0.41,2.14,2.55,2.19,0.63
+"19","Norte de Santander department",2.43,0.43,2.17,2.57,2.32,0.15
+"20","Putumayo department",2.45,0.59,2.12,2.67,2.03,0.68
+"21","Quindío department",2.42,0.58,1.99,2.81,2.65,0.34
+"22","Risaralda department",2.5,0.49,2.07,2.87,2.05,0.37
+"23","Santander department",2.44,0.44,2.14,2.63,2.46,0.72
+"24","Sucre department",2.57,0.69,2.13,2.67,2.39,0.1
+"25","Tolima  department",2.4,0.33,2.17,2.61,2,0.27
+"26","Valle del Cauca  department",2.34,0.25,2.17,2.45,2.23,0.73
+"27","La Guajira department",2.77,0.72,2.22,3.18,2.58,0.94
