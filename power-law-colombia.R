@@ -3,6 +3,7 @@
 # Supplementary material for the article Explaining conflict violence in terms 
 # of conflict actor dynamics  by Tkacova, Idler, Johnson and Lopez (2023)
 # Date created: 12 July 2023
+# Update: 16 October 2023 (notation changes)
 
 rm(list= ls())
 
@@ -10,7 +11,6 @@ library(ggplot2)
 library(poweRlaw)
 library(tidyverse)
 
-set.seed(18)
 
 data <- readRDS("data/colombia.rds")
 
@@ -28,11 +28,11 @@ m_sp = displ$new(data$deaths_total)
 est_sp = estimate_xmin(m_sp)
 m_sp$setXmin(est_sp)
 
-bs_p = bootstrap_p(m_sp, no_of_sims=5000, threads=2, xmins = seq(1, 30, 1))
+bs_p = bootstrap_p(m_sp, no_of_sims=5000, threads=2, xmins = seq(1, 30, 1), seed=2012)
 
-png(file="figs/colombia-frequency-size-distribution.png")
+pdf(file="figs/colombia-frequency-size-distribution.pdf")
 plot(m_sp, pch=1, bg=1, panel.first=grid(col="grey80"),
-     xlab="Severity (battle deaths)", ylab="CDF")
+     xlab="x", ylab="P(x)")
 title(main="")
 lines(m_sp, col=2, lwd=1)
 text(50, 0.06, paste("alpha =", round(est_sp$pars,2)), col = "red")
