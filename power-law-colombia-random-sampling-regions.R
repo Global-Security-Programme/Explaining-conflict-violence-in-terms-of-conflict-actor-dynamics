@@ -4,6 +4,14 @@
 # of conflict actor dynamics  by Tkacova, Idler, Johnson and Lopez (2023)
 # Date created: 18 October
 
+
+# Code chunks under the headings "Fitting to power-law" are adjusted from:
+  ## Title: davidvsgoliath (GitHub repository)
+  ## Author: Stijn van Weezel 
+  ## Date: 2021
+  ## Availability: https://github.com/CommonEconomist/davidvsgoliath
+
+
 library(poweRlaw)
 library(tidyverse)
 
